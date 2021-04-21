@@ -1,0 +1,42 @@
+Todas las funciones que vamos a ver se van a ejecutar en la consola del navegador (shift+ctrl+i). 
+
+Las funciones de la consola siempre van a tener antes la palabra reservada 'console.' y un punto.
+
+.assert permite recibir por parametro una condicion, si esta es verdadera no pasa nada en la consola pero si es falsa salta un mensaje en la consola. Ej:
+console.assert(5 > 3);
+
+.clear nos permite limpiar la consola.
+console.clear();
+
+.error nos permite devolver un valor como si fuera un texto de error
+console.error('Hay un error aqui');
+
+.log nos permite mostrar cosas por la consola
+console.log('Hola mundo');
+
+.table nos permite crear una tabla a partir de un array
+console.table([1,4,,5,2,5,7,8,9,3,6,6,4,3]);
+
+.warn nos permite escribir un mensaje de abvertencia
+console.warn('Ten cuidado con esto...');
+
+.count permite craer un contador que muestra por consola cuantas veces se ejecuto.
+console.count();
+
+.countReset permite reiniciar la cuanta que tiene .count
+console.countReset();
+
+.group nos permite crear un grupo, donde estaran nuestra lineas de codigos, y asignarle un nombre.
+console.group('Frutas');
+
+.groupEnd permite cerrar un grupo
+console.groupEnd();
+
+.time sirve para crear un temporizador
+console.time();
+
+.timeLog sirve para mostrar el tiempo transcurrido desde que comenzo el temporizador
+console.timeLog();
+
+.timeEnd sirve para detener el temporizador
+console.timeEnd();
